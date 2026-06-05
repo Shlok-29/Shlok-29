@@ -263,15 +263,3 @@ https://www.hackerearth.com/@shlokdubey2903/
 # ⚡ Fun Fact
 
 I enjoy building AI-powered products, leading teams, participating in hackathons, exploring emerging technologies, playing badminton, and continuously learning new things.
-
----
-
-<div align="center">
-
-# Leadership • Innovation • Impact
-
-### Building AI-Powered Products for Real-World Impact
-
-⭐ Explore my repositories and connect with me!
-
-</div>
