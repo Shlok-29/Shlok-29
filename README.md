@@ -199,16 +199,6 @@ Leading student initiatives, managing teams, organizing events, and driving enga
 
 ---
 
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Shlok-29&theme=algolia&no-frame=true&row=1"/>
-
-</p>
-
----
-
 # 🌱 Currently Building
 
 * Smart Mobility Platform
@@ -233,7 +223,7 @@ Leading student initiatives, managing teams, organizing events, and driving enga
 
 <p align="left">
 
-<a href="https://www.linkedin.com/in/shlok-dubey-b8742">
+<a href="https://www.linkedin.com/in/shlok-dubey29">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
