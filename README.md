@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="C:\Users\Shlok Dubey\Desktop\profile Banner (1).png" width="100%"/>
+<img src="profile Banner (1).png" width="100%"/>
+
 
 # Hi 👋, I'm Shlok Dubey
 
@@ -193,7 +194,7 @@ Leading student initiatives, managing teams, organizing events, and driving enga
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shlok-29&theme=tokyonight"/>
+<img src="https://streak-stats.demolab.com/?user=Shlok-29&theme=tokyonight"/>
 
 </p>
 

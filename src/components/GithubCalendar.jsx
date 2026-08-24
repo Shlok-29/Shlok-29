@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Calendar, Flame, Trophy, ExternalLink, GitBranch, Users, Star } from 'lucide-react';
+import { Github, Calendar, Flame, Trophy, ExternalLink, GitBranch, Users, Flame as FlameIcon } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export const GithubCalendar = () => {
@@ -19,10 +19,9 @@ export const GithubCalendar = () => {
         }
 
         // Generate dynamic contribution matrix for rendering
-        // 52 weeks x 7 days grid
         const today = new Date();
         const weeks = [];
-        let totalCount = 485; // Default estimate baseline
+        let totalCount = 485;
         
         for (let w = 51; w >= 0; w--) {
           const days = [];
@@ -30,10 +29,8 @@ export const GithubCalendar = () => {
             const date = new Date(today);
             date.setDate(date.getDate() - (w * 7 + (6 - d)));
             
-            // Random pattern simulation matching active commit pattern for Shlok-29
-            const dayOfWeek = date.getDay();
-            let count = 0;
             const seed = (date.getFullYear() * 1000) + (date.getMonth() * 30) + date.getDate();
+            let count = 0;
             if (seed % 3 === 0 || seed % 5 === 0) {
               count = (seed % 9);
             }
@@ -154,8 +151,8 @@ export const GithubCalendar = () => {
           </div>
         </div>
 
-        {/* Contribution Calendar Card with Horizontal Overflow Handling */}
-        <div className="glass-panel rounded-2xl p-6 border border-white/10 shadow-2xl relative">
+        {/* Contribution Calendar Card */}
+        <div className="glass-panel rounded-2xl p-6 border border-white/10 shadow-2xl relative mb-8">
           <div className="flex items-center justify-between mb-4 pb-2 border-b border-white/10">
             <div className="flex items-center space-x-2 text-xs font-mono text-cyan-400">
               <GitBranch className="w-4 h-4" />
@@ -222,6 +219,22 @@ export const GithubCalendar = () => {
               <span>View full timeline on GitHub</span>
               <ExternalLink className="w-3 h-3" />
             </a>
+          </div>
+        </div>
+
+        {/* Live GitHub Streak Card */}
+        <div className="glass-panel rounded-2xl p-6 border border-white/10 shadow-xl text-center flex flex-col items-center">
+          <div className="flex items-center space-x-2 text-sm font-mono text-orange-400 font-bold mb-4">
+            <FlameIcon className="w-4 h-4 animate-bounce" />
+            <span>LIVE GITHUB STREAK ANALYTICS</span>
+          </div>
+          <div className="w-full max-w-xl overflow-hidden rounded-xl bg-cyber-dark p-2 border border-white/10 flex justify-center">
+            <img
+              src={`https://streak-stats.demolab.com/?user=${personalInfo.githubUsername}&theme=tokyonight&hide_border=true`}
+              alt="Shlok Dubey GitHub Streak Stats"
+              className="w-full h-auto max-w-md object-contain"
+              loading="lazy"
+            />
           </div>
         </div>
 
