@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="radarArea" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.20"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- CARD BACKGROUND -->
+  <rect x="5" y="5" width="790" height="490" rx="16" fill="#030712" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="5" y="5" width="790" height="490" rx="16" fill="url(#bgGlow)"/>
+
+  <!-- HEADER -->
+  <text x="35" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5">TECHNICAL SKILL RADAR</text>
+  <text x="35" y="66" fill="#00f0ff" font-family="JetBrains Mono, monospace" font-size="11" font-weight="500">Shlok Dubey • AI/ML &amp; Full-Stack Core Competencies</text>
+  <line x1="35" y1="80" x2="765" y2="80" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- RADAR CHART GRAPHICS -->
+  <g class="radar-grid">
+    <polygon points="260,236 279.9846985779441,242.4934221912518 292.3359215540352,259.4934221912518 292.3359215540352,280.5065778087482 279.9846985779441,297.5065778087482 260,304 240.01530142205593,297.5065778087482 227.66407844596478,280.5065778087482 227.66407844596478,259.4934221912518 240.0153014220559,242.4934221912518" fill="none" stroke="#1e293b" stroke-opacity="0.6" stroke-width="1" stroke-dasharray="3 3" />
+<polygon points="260,202 299.96939715588815,214.9868443825036 324.67184310807045,248.9868443825036 324.67184310807045,291.0131556174964 299.96939715588815,325.0131556174964 260,338 220.03060284411183,325.0131556174964 195.32815689192955,291.0131556174964 195.32815689192955,248.9868443825036 220.03060284411183,214.9868443825036" fill="none" stroke="#1e293b" stroke-opacity="0.6" stroke-width="1" stroke-dasharray="3 3" />
+<polygon points="260,168 319.9540957338323,187.48026657375536 357.00776466210567,238.48026657375536 357.00776466210567,301.5197334262446 319.9540957338323,352.51973342624467 260,372 200.04590426616775,352.51973342624467 162.99223533789433,301.51973342624467 162.99223533789433,238.4802665737554 200.04590426616772,187.4802665737554" fill="none" stroke="#1e293b" stroke-opacity="0.6" stroke-width="1" stroke-dasharray="3 3" />
+<polygon points="260,134 339.93879431177635,159.97368876500715 389.3436862161409,227.97368876500715 389.3436862161409,312.0263112349928 339.93879431177635,380.0263112349928 260,406 180.06120568822365,380.0263112349928 130.65631378385913,312.0263112349929 130.6563137838591,227.97368876500718 180.06120568822365,159.97368876500718" fill="none" stroke="#1e293b" stroke-opacity="0.6" stroke-width="1" stroke-dasharray="3 3" />
+<polygon points="260,100 359.9234928897204,132.46711095625892 421.67960777017606,217.46711095625895 421.67960777017606,322.5328890437411 359.9234928897204,407.5328890437411 260,440 160.07650711027958,407.5328890437411 98.32039222982391,322.5328890437411 98.32039222982388,217.46711095625898 160.07650711027955,132.46711095625895" fill="none" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="none" />
+
+    <line x1="260" y1="270" x2="260" y2="100" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="359.9234928897204" y2="132.46711095625892" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="421.67960777017606" y2="217.46711095625895" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="421.67960777017606" y2="322.5328890437411" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="359.9234928897204" y2="407.5328890437411" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="260" y2="440" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="160.07650711027958" y2="407.5328890437411" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="98.32039222982391" y2="322.5328890437411" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="98.32039222982388" y2="217.46711095625898" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+<line x1="260" y1="270" x2="160.07650711027955" y2="132.46711095625895" stroke="#334155" stroke-opacity="0.6" stroke-width="1" />
+
+  </g>
+
+  <!-- RADAR FILLED POLYGON -->
+  <polygon points="260,117 344.93496895626237,153.0970443128201 402.27805483775495,223.77105764150787 392.57727837154437,313.0769690158677 337.94032445398193,377.275653454118 260,406 182.05967554601807,377.275653454118 146.82427456087674,306.77302233061874 138.7402941723679,230.60033321719422 188.05508511940127,170.97631988850645" fill="url(#radarArea)" stroke="#00f0ff" stroke-width="2.5" filter="url(#glow)" />
+  <circle cx="260" cy="117" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="344.93496895626237" cy="153.0970443128201" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="402.27805483775495" cy="223.77105764150787" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="392.57727837154437" cy="313.0769690158677" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="337.94032445398193" cy="377.275653454118" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="260" cy="406" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="182.05967554601807" cy="377.275653454118" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="146.82427456087674" cy="306.77302233061874" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="138.7402941723679" cy="230.60033321719422" r="4" fill="#00f0ff" filter="url(#glow)" />
+<circle cx="188.05508511940127" cy="170.97631988850645" r="4" fill="#00f0ff" filter="url(#glow)" />
+
+  <text x="260" y="76" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Python (90%)</text>
+<text x="376.38147995390966" y="113.8146351137604" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="start">Machine Learning (85%)</text>
+<text x="448.30919022644036" y="212.8146351137604" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="start">AI / GenAI (88%)</text>
+<text x="448.30919022644036" y="335.1853648862396" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="start">React.js (82%)</text>
+<text x="376.38147995390966" y="434.1853648862396" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="start">Node / Express (78%)</text>
+<text x="260" y="472" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="middle">MongoDB / SQL (80%)</text>
+<text x="143.61852004609034" y="434.1853648862396" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="end">NLP (78%)</text>
+<text x="71.69080977355961" y="335.1853648862396" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="end">Cloud / Docker (70%)</text>
+<text x="71.69080977355958" y="212.81463511376043" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="end">FastAPI (75%)</text>
+<text x="143.61852004609028" y="113.81463511376043" fill="#38bdf8" font-family="JetBrains Mono, monospace, sans-serif" font-size="11" font-weight="600" text-anchor="end">C++ (72%)</text>
+
+
+  <!-- RIGHT SIDE CATEGORIZED METRICS PANEL -->
+  <g transform="translate(540, 100)">
+    <rect x="0" y="0" width="225" height="345" rx="12" fill="#0b0f19" stroke="#1e293b" stroke-width="1.5" />
+    <text x="20" y="32" fill="#00f0ff" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" letter-spacing="1">CATEGORIZED STACK</text>
+    <line x1="20" y1="42" x2="205" y2="42" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Category 1: AI / ML -->
+    <text x="20" y="68" fill="#ffffff" font-family="Inter, sans-serif" font-size="12" font-weight="700">🤖 AI / ML &amp; GenAI</text>
+    <text x="20" y="86" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">Python • Scikit-learn • NLP</text>
+    <text x="20" y="100" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">CrewAI • Gemini API • LLMs</text>
+
+    <!-- Category 2: Full Stack -->
+    <text x="20" y="138" fill="#ffffff" font-family="Inter, sans-serif" font-size="12" font-weight="700">⚡ Full-Stack Web</text>
+    <text x="20" y="156" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">React.js • Node.js • Express</text>
+    <text x="20" y="170" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">FastAPI • Tailwind CSS</text>
+
+    <!-- Category 3: Databases -->
+    <text x="20" y="208" fill="#ffffff" font-family="Inter, sans-serif" font-size="12" font-weight="700">🗄️ Databases</text>
+    <text x="20" y="226" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">MongoDB • PostgreSQL</text>
+    <text x="20" y="240" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">MySQL • MongoDB Atlas</text>
+
+    <!-- Category 4: Cloud & Tools -->
+    <text x="20" y="278" fill="#ffffff" font-family="Inter, sans-serif" font-size="12" font-weight="700">🛠️ Tools &amp; Cloud</text>
+    <text x="20" y="296" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">Git • GitHub • Docker</text>
+    <text x="20" y="310" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="10">Postman • AWS • Render</text>
+  </g>
+</svg>
