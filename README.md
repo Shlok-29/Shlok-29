@@ -182,21 +182,24 @@ Leading student initiatives, managing teams, organizing events, and driving enga
 
 <p align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shlok-29&show_icons=true&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shlok-29&theme=tokyonight" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shlok-29&layout=compact&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shlok-29&theme=tokyonight" />
 
 </p>
 
 ---
 
-# 🔥 GitHub Streak
+# 🔥 GitHub Activity & Streak
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Shlok-29&theme=tokyonight"/>
+<img src="https://img.shields.io/github/followers/Shlok-29?label=GitHub%20Followers&style=for-the-badge&color=00f0ff&logo=github"/>
+<img src="https://img.shields.io/github/stars/Shlok-29?label=Total%20Stars&style=for-the-badge&color=3b82f6&logo=github"/>
+<img src="https://img.shields.io/badge/GitHub%20Streak-Active%20Builder-orange?style=for-the-badge&logo=github"/>
 
 </p>
+
 
 ---
 

@@ -222,17 +222,17 @@ export const GithubCalendar = () => {
           </div>
         </div>
 
-        {/* Live GitHub Streak Card */}
+        {/* Live GitHub Analytics Card */}
         <div className="glass-panel rounded-2xl p-6 border border-white/10 shadow-xl text-center flex flex-col items-center">
-          <div className="flex items-center space-x-2 text-sm font-mono text-orange-400 font-bold mb-4">
-            <FlameIcon className="w-4 h-4 animate-bounce" />
-            <span>LIVE GITHUB STREAK ANALYTICS</span>
+          <div className="flex items-center space-x-2 text-sm font-mono text-cyan-400 font-bold mb-4">
+            <FlameIcon className="w-4 h-4 text-orange-400 animate-bounce" />
+            <span>LIVE GITHUB PROFILE & COMMIT ANALYTICS</span>
           </div>
-          <div className="w-full max-w-xl overflow-hidden rounded-xl bg-cyber-dark p-2 border border-white/10 flex justify-center">
+          <div className="w-full max-w-2xl overflow-hidden rounded-xl bg-cyber-dark p-2 border border-white/10 flex justify-center">
             <img
-              src={`https://streak-stats.demolab.com/?user=${personalInfo.githubUsername}&theme=tokyonight&hide_border=true`}
-              alt="Shlok Dubey GitHub Streak Stats"
-              className="w-full h-auto max-w-md object-contain"
+              src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${personalInfo.githubUsername}&theme=tokyonight`}
+              alt="Shlok Dubey GitHub Analytics Card"
+              className="w-full h-auto max-w-xl object-contain"
               loading="lazy"
             />
           </div>
