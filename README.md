@@ -1,7 +1,6 @@
 <div align="center">
 
 <img src="profile Banner (1).png" width="100%"/>
-<img src="assets/portrait.svg" width="200" alt="Profile Portrait">
 
 # Hi 👋, I'm Shlok Dubey
 
