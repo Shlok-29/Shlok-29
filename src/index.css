@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
+/* Cyber Grid Background */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 20%, rgba(0, 240, 255, 0.12) 0%, rgba(59, 130, 246, 0.04) 45%, transparent 70%);
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background: rgba(11, 15, 25, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-interactive {
+  background: rgba(11, 15, 25, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-interactive:hover {
+  border-color: rgba(6, 182, 212, 0.4);
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.15), 0 0 10px -2px rgba(59, 130, 246, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Glowing text effects */
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.6);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 12px rgba(59, 130, 246, 0.6);
+}
+
+/* Scanline effect overlay */
+.scanline-overlay {
+  position: relative;
+  overflow: hidden;
+}
+.scanline-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 240, 255, 0.03) 50%
+  );
+  background-size: 100% 4px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* Tooltip animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Prefers Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
