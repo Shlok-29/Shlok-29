@@ -1,205 +1,255 @@
 <div align="center">
 
-<!-- HERO TABLE / LAYOUT -->
-<table border="0" width="100%" style="border: none; background: transparent;">
-  <tr>
-    <td width="58%" valign="top" style="border: none;">
-      
+<img src="C:\Users\Shlok Dubey\Desktop\profile Banner (1).png" width="100%"/>
+
 # Hi 👋, I'm Shlok Dubey
 
-### AI/ML Engineer • Full-Stack Developer • Student Leader
+### AI/ML Engineer • Full Stack Developer • Student Leader
 
-<p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00F0FF&vCenter=true&width=550&lines=Building+Intelligent+AI-Powered+Systems;AI%2FML+Engineer+%E2%80%A2+Full-Stack+Developer;Vice+President+Student+Council;Multi-Agent+Systems+%7C+GenAI+%7C+Web" alt="Typing SVG" />
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Building+AI-Powered+Products+for+Real-World+Impact;AI%2FML+Engineer;Full+Stack+Developer;Vice+President+Student+Council;Leadership+%7C+Innovation+%7C+Impact" />
 </p>
 
-<p>
-  <a href="https://github.com/Shlok-29"><img src="https://img.shields.io/badge/AI%2FML-Engineer-00f0ff?style=for-the-badge&logo=python&logoColor=black" /></a>
-  <a href="https://github.com/Shlok-29"><img src="https://img.shields.io/badge/Full_Stack-Developer-3b82f6?style=for-the-badge&logo=react&logoColor=white" /></a>
-  <a href="https://github.com/Shlok-29"><img src="https://img.shields.io/badge/Student-Leader-a855f7?style=for-the-badge&logo=sparkles&logoColor=white" /></a>
-  <a href="https://github.com/Shlok-29"><img src="https://img.shields.io/badge/Open_To-Opportunities-brightgreen?style=for-the-badge" /></a>
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Shlok-29&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+
 </p>
 
-<p>
-  <a href="https://www.linkedin.com/in/shlok-dubey29"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:shlokdubey2903@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Shlok-29"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<p align="center">
+
+<img src="https://img.shields.io/badge/AI%2FML-Engineer-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Full%20Stack-Developer-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Student-Leader-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Open%20To-Opportunities-brightgreen?style=for-the-badge"/>
+
 </p>
-    </td>
-    <td width="42%" align="center" valign="middle" style="border: none;">
-      <a href="https://github.com/Shlok-29">
-        <img src="assets/portrait.svg" width="340" alt="Shlok Dubey Animated SVG Portrait" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 </div>
 
 ---
 
-## 🚀 About Me
+# 🚀 About Me
 
-I'm **Shlok Dubey**, a Computer Science Engineering (AI & ML) student at IES University passionate about building production-ready intelligent systems, autonomous multi-agent workflows, and scalable full-stack applications.
+I'm **Shlok Dubey**, a Computer Science Engineering (AI & ML) student passionate about building intelligent systems, AI-powered products, and scalable software solutions.
 
-Currently serving as **Vice President of the Student Council**, I enjoy combining technological innovation, team leadership, and rapid execution to build software products with real-world impact.
+Currently serving as the **Vice President of the Student Council**, I enjoy combining technology, leadership, and innovation to create meaningful impact.
 
-### 🎯 Key Focus Areas
+### Areas of Interest
 
-* 🤖 **Artificial Intelligence & Machine Learning**: Autonomous agents, predictive modeling & NLP
-* ⚡ **Generative AI & LLMs**: CrewAI orchestration, Gemini API integration, and prompt engineering
-* 💻 **Full-Stack Development**: Modern React/Next.js interfaces, FastAPI microservices, and Node.js REST APIs
-* ☁️ **Cloud & Infrastructure**: Distributed systems, containerization (Docker), and cloud deployments
-* 🏆 **Hackathons & Leadership**: Top finalist in national hackathons & student council executive leadership
+* Artificial Intelligence & Machine Learning
+* Multi-Agent Systems
+* Full Stack Development
+* Cloud Computing
+* Product Development
+* Startup & Hackathon Ecosystem
 
 ---
 
-## 💻 Tech Stack & Arsenal
+# 💻 Tech Stack
 
 ### Languages
+
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=python,cpp,javascript"/>
 </p>
 
-### AI / ML & Frameworks
+### Frontend
+
 <p>
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-Multi_Agent-00f0ff?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Gemini_API-Google-3b82f6?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind"/>
 </p>
 
-### Frontend & Backend
+### Backend
+
 <p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi"/>
 </p>
 
-### Databases & Cloud Tools
+### Databases
+
 <p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgresql"/>
 </p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode"/>
+</p>
+
+### AI / ML
+
+* Pandas
+* NumPy
+* Scikit-Learn
+* CrewAI
+* Gemini API
+* Generative AI
 
 ---
 
-## 📊 Technical Skill Radar
+# 🚀 Featured Projects
+
+## 🔗 ChainMind
+
+### Autonomous Multi-Agent Supply Chain Orchestration
+
+An AI-powered platform that leverages autonomous agents to optimize supply chain operations, automate workflows, and improve decision-making.
+
+**Tech Stack:** React • TypeScript • FastAPI • CrewAI • Streamlit • Machine Learning
+
+✅ Multi-Agent Collaboration
+
+✅ Intelligent Workflow Automation
+
+✅ Supply Chain Optimization
+
+🔗 Repository:
+https://github.com/Shlok-29/Chain_Mind
+
+---
+
+## 💰 FinCash
+
+### Financial Literacy Platform for First-Time Earners
+
+An AI-powered financial education platform helping users learn budgeting, investments, taxation, and wealth management through practical simulations.
+
+**Tech Stack:** React • Node.js • MongoDB • FastAPI • Gemini API
+
+✅ AI Financial Mentor
+
+✅ Smart Budget Planner
+
+✅ Investment Learning Hub
+
+🔗 Repository:
+https://github.com/Shlok-29/FinCash
+
+---
+
+## 📚 StudySpace
+
+### AI-Powered Collaborative Study Platform
+
+A collaborative digital learning ecosystem designed to enhance student productivity and engagement through AI-assisted learning experiences.
+
+**Tech Stack:** Next.js • PostgreSQL • Docker • Socket.io
+
+✅ Real-Time Collaboration
+
+✅ AI-Assisted Learning
+
+✅ Smart Study Environment
+
+🔗 Repository:
+https://github.com/Shlok-29/Studyspace
+
+---
+
+# 💼 Leadership & Experience
+
+### 🏛 Vice President — Student Council
+
+Leading student initiatives, managing teams, organizing events, and driving engagement across academic and co-curricular activities.
+
+### 🌍 Junior Manager — AIESEC in Bhopal
+
+* Managed international exchange operations
+* Coordinated outreach campaigns
+* Supported 50+ participants
+* Organized Youth Speak Forum
+
+---
+
+# 🏆 Achievements & Certifications
+
+* Vice President, Student Council
+* Event Head — INFORIA 2024 & 2025
+* TEDx IES University Anchor
+* Volunteer in 100+ Technical & Cultural Events
+* JPMorgan Chase Software Engineering Simulation
+* Tata GenAI-Powered Data Analytics Simulation
+* NPTEL Certification in Cloud Computing
+* NPTEL Certification in IoT
+* Letter of Excellence — AIESEC Bhopal
+
+---
+
+# 📊 GitHub Analytics
 
 <p align="center">
-  <img src="assets/skill-radar.svg" width="100%" alt="Shlok Dubey Technical Skill Radar" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shlok-29&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shlok-29&layout=compact&theme=tokyonight"/>
+
 </p>
+
+---
+
+# 🔥 GitHub Streak
 
 <p align="center">
-  <img src="assets/language-radar.svg" width="100%" alt="Primary Programming Languages Distribution" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shlok-29&theme=tokyonight"/>
+
 </p>
 
 ---
 
-## 🚀 Featured Projects
+# 🌱 Currently Building
 
-### 🔗 [ChainMind](https://github.com/Shlok-29/Chain_Mind)
-> **Autonomous Multi-Agent Supply Chain Orchestration**
-* An AI-powered platform leveraging collaborating autonomous agents (demand, procurement, logistics) to optimize supply chain workflows and automate decision-making.
-* **Tech Stack:** React • TypeScript • FastAPI • CrewAI • Streamlit • Machine Learning
-* [View Repository ➔](https://github.com/Shlok-29/Chain_Mind)
-
----
-
-### 💰 [FinCash](https://github.com/Shlok-29/FinCash)
-> **AI Financial Literacy Platform for First-Time Earners**
-* An AI financial mentor and interactive simulator helping users master budgeting, investments, tax planning, and market simulations.
-* **Tech Stack:** React • Node.js • MongoDB • FastAPI • Gemini API
-* [View Repository ➔](https://github.com/Shlok-29/FinCash)
+* Smart Mobility Platform
+* AI Attendance Verification System
+* Multi-Agent AI Applications
+* Cloud-Native Solutions
+* Real-World AI Products
 
 ---
 
-### 📚 [StudySpace](https://github.com/Shlok-29/Studyspace)
-> **AI-Powered Collaborative Learning Ecosystem**
-* A high-performance digital study room platform enhancing student focus through real-time WebSockets, shared whiteboards, and AI tutoring.
-* **Tech Stack:** Next.js • PostgreSQL • Docker • Socket.io • Tailwind CSS
-* [View Repository ➔](https://github.com/Shlok-29/Studyspace)
+# 🎯 2026 Goals
+
+* Contribute to Open Source
+* Build Production-Ready AI Systems
+* Launch an AI-Based SaaS Product
+* Reach 500+ GitHub Contributions
+* Secure High-Impact Internship Opportunities
 
 ---
 
-## 🐍 GitHub Contribution Calendar
+# 🌐 Connect With Me
 
-<p align="center">
-  <img src="assets/github-contribution-snake.svg" width="100%" alt="Shlok Dubey GitHub Contribution Snake Animation" />
+<p align="left">
+
+<a href="https://www.linkedin.com/in/shlok-dubey29">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="mailto:shlokdubey2903@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail"/>
+</a>
+
+<a href="https://github.com/Shlok-29">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
+
 </p>
 
----
+### Coding Profiles
 
-## 📈 GitHub Analytics & Streak
+💻 LeetCode
+https://leetcode.com/u/OZhLNdh8jK/
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shlok-29&show_icons=true&theme=tokyonight&border_color=00f0ff" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shlok-29&layout=compact&theme=tokyonight&border_color=00f0ff" alt="Top Languages" />
-</p>
+🏆 HackerRank
+https://www.hackerrank.com/profile/shlokdubey2903
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shlok-29&theme=tokyonight&border=00f0ff" alt="GitHub Streak" />
-</p>
+⚡ HackerEarth
+https://www.hackerearth.com/@shlokdubey2903/
 
 ---
 
-## 💼 Leadership & Experience
+# ⚡ Fun Fact
 
-* 🏛️ **Vice President — Student Council (IES University)**
-  * Leading student body operations, directing cross-functional technical teams, and managing campus symposiums.
-* 🌍 **Junior Manager — AIESEC in Bhopal**
-  * Managed international exchange candidate onboarding, supported 50+ participants, and spearheaded the Youth Speak Forum.
-
----
-
-## 🏆 Achievements & Certifications
-
-* 🥇 **Udbhav'26 — Top 10 Grand Finalist**: Selected among top 10 innovation teams out of 300+ entries nationwide.
-* ⚡ **TIT Srijan 2026 — National Hackathon Finalist**: Reached national finals during a 36-hour hackathon.
-* 🎤 **Event Head — INFORIA 2024 & 2025**: Led organizing committee for flagship tech fest hosting 1000+ attendees.
-* 🎙️ **TEDx IES University Anchor**: Hosted keynote speakers at official TEDx conference.
-* 📜 **JPMorgan Chase Software Engineering Simulation**: Completed practical tasks in financial UI visualization & performance.
-* 📜 **Tata GenAI-Powered Data Analytics Simulation**: Built Generative AI data visualization workflows.
-* 📜 **NPTEL Certification in Cloud Computing** (IIT Kharagpur)
-* 📜 **NPTEL Certification in Internet of Things (IoT)** (IIT Kharagpur)
-* 📜 **Letter of Excellence**: Awarded by AIESEC Bhopal for operational leadership.
-
----
-
-## 🌐 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/shlok-dubey29">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:shlokdubey2903@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/Shlok-29">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-### 💻 Coding Profiles
-
-* 💻 **LeetCode**: [leetcode.com/u/OZhLNdh8jK/](https://leetcode.com/u/OZhLNdh8jK/)
-* 🏆 **HackerRank**: [hackerrank.com/profile/shlokdubey2903](https://www.hackerrank.com/profile/shlokdubey2903)
-* ⚡ **HackerEarth**: [hackerearth.com/@shlokdubey2903/](https://www.hackerearth.com/@shlokdubey2903/)
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Shlok-29&label=Profile%20Views&color=00f0ff&style=for-the-badge" />
-</p>
+I enjoy building AI-powered products, leading teams, participating in hackathons, exploring emerging technologies, playing badminton, and continuously learning new things.
