@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { AnimatedProfile } from './AnimatedProfile';
+import { AnimatedPortrait } from './AnimatedPortrait';
 import { personalInfo } from '../data/portfolioData';
-import { Terminal, Github, Linkedin, FileText, ArrowRight, Sparkles, ChevronRight } from 'lucide-react';
+import { Terminal, Github, Linkedin, FileText, ArrowRight, Sparkles } from 'lucide-react';
 
 export const Hero = ({ onOpenCommandPalette }) => {
   const [typedText, setTypedText] = useState('');
@@ -21,16 +21,23 @@ export const Hero = ({ onOpenCommandPalette }) => {
   }, []);
 
   return (
-    <section id="home" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <section id="home" className="relative pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden">
       {/* Background Cyber Grid & Glows */}
       <div className="absolute inset-0 bg-grid-pattern opacity-60 pointer-events-none" />
       <div className="absolute top-1/4 left-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        {/* Desktop Two-Column / Mobile Stacked Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
-          {/* Text & CTAs Left (7 cols) */}
+          {/* Mobile Portrait View (First on small screens) */}
+          <div className="lg:hidden flex justify-center w-full mb-4">
+            <AnimatedPortrait />
+          </div>
+
+          {/* Text & CTAs Column (Left 7 Cols on Desktop) */}
           <div className="lg:col-span-7 space-y-8 text-left">
             
             {/* Availability Status Badge */}
@@ -50,7 +57,7 @@ export const Hero = ({ onOpenCommandPalette }) => {
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white">
                 SHLOK <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">DUBEY</span>
               </h1>
-              <div className="flex flex-wrap items-center gap-2 text-sm sm:text-base font-mono font-semibold text-cyan-400 tracking-wider">
+              <div className="flex flex-wrap items-center gap-2 text-xs sm:text-base font-mono font-semibold text-cyan-400 tracking-wider">
                 <span>AI/ML ENGINEER</span>
                 <span>•</span>
                 <span>FULL-STACK DEVELOPER</span>
@@ -87,7 +94,7 @@ export const Hero = ({ onOpenCommandPalette }) => {
               </div>
             </div>
 
-            {/* CTA Buttons */}
+            {/* Action CTAs */}
             <div className="flex flex-wrap gap-4 pt-2">
               <a
                 href="#projects"
@@ -130,9 +137,9 @@ export const Hero = ({ onOpenCommandPalette }) => {
 
           </div>
 
-          {/* Animated Profile Image Right (5 cols) */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-end">
-            <AnimatedProfile />
+          {/* Desktop Animated SVG Portrait Column (5 Cols on Desktop ~40-45% width) */}
+          <div className="hidden lg:flex lg:col-span-5 justify-center lg:justify-end">
+            <AnimatedPortrait />
           </div>
 
         </div>
