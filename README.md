@@ -7,7 +7,7 @@
 ### AI/ML Engineer • Full Stack Developer • Student Leader
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Building+AI-Powered+Products+for+Real-World+Impact;AI%2FML+Engineer;Full+Stack+Developer;Vice+President+Student+Council;Leadership+%7C+Innovation+%7C+Impact" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Building+AI-Powered+Products+for+Real-World+Impact;AI%2FML+Engineer;Full+Stack+Developer;President+Student+Council;Leadership+%7C+Innovation+%7C+Impact" />
 </p>
 
 <p align="center">
